@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element selector */
+body{
+    background-color: #4848e4;
+}
+main{
+
+}
+img{
+    width: 100%;
+}
+
+/*  Class selector */
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.788);
+}
+.card{
+    width: 300px;
+    height: 100%;
+    background-color: #fff  ;
+    padding: 10px;
+    margin: 4rem auto;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ID Selector */
+#card_body{
+    padding: 20px;
+    text-align: center;
+}
+
+#card_img{
+    border-radius: 6px;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.card_title{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}

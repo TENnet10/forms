@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #eee;
+}
+
+.signform{
+    width: 250px;
+    background: #3950d1;
+    border-radius: 10px;
+    height: 400px;
+    position: relative;
+}
+
+.title{
+    font-size: 16px;
+    margin: 1rem 0;
+}
+
+.form{
+    background: #fff;
+    padding: 2rem 1rem;
+    position: absolute;
+    top: 2.5rem;
+    left: -6rem;
+    border-radius: 6px;
+}
+
+.form-control{
+    width: 90%;
+    margin-bottom: 0.6rem;
+}
+
+.form-control input{
+    padding: 7px;
+    margin-top: 2px;
+    border: solid 1px #e4e4e4;
+    border-radius: 4px;
+     width: 100%; 
+}
+
+.form-control label{
+    font-size: 12px;
+}
+.btn{
+    background-color: #3950d1;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.pass{
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+}
+
+
+.signup{
+    text-align: center;
+    margin-top: 1.2rem;
+}
